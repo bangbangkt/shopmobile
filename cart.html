@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Haha--Cart</title>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Owl-carousel CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha256-UhQQ4fxEeABh4JrcmAJ1+16id/1dnlOEVCFOxDef9Lw=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha256-kksNxjDRxd/5+jGurZUJd1sdR2v+ClrCl3svESBaJqw=" crossorigin="anonymous" />
+
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+
+    <!-- Custom CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrapper">
+  <!-- start #header -->    
+  <header class="header">
+             <!-- X menu -->
+           <i class="fas fa-bars menu__collapse"></i> 
+           <i class="fas fa-times menu__close"></i>
+          <div class="container">
+            <div class="header__top">
+                <a href="index.html" class="header__logo"> 
+                    Mobile HaHa
+                </a>
+
+                <div class="header__search">
+                    <input type="text" placeholder="Search..."  class="seach--input">
+                    <button class="btn btn--search">Tim kiem</button>
+                </div>
+
+                <div class="header__cart">
+                <a href="cart.html" class="cart" > <i class="fas fa-shopping-cart"></i></a>
+                <span class="cart--value">Toong: $0.00  </span>
+
+                </div>
+            </div>
+          </div>
+  </header>
+  <!-- !end #header -->
+
+  <!--nav menu -->
+  <nav class="menu" id="menu">
+                               
+        <ul class="menu__list">
+        
+            <li class="menu__item"> 
+                <a href="#" class="menu__link">Home</a>
+            </li>
+            <li class="menu__item">
+                <a href="#_about" class="menu__link">About</a>
+            </li>
+            <li class="menu__item">
+                <a href="product.html" class="menu__link">Product</a>
+            </li>
+            <li class="menu__item">
+              <a href="#_team" class="menu__link">Experienced Team</a>
+          </li>
+            <li class="menu__item">
+              <a href="#_contact" class="menu__link">Contact</a>
+          </li>
+            
+            <li class="menu__item">
+                <a href="#_footer" class="menu__link">Footer</a>
+            </li>
+        </ul>
+  </nav>
+   <!-- end nav menu -->
+    
+  <main >
+    <div class="container">
+      <!-- Shopping cart section  -->
+      <section id="cart__site">
+      
+        <div class="cate--title"> <span>shopping cart :</span></div>
+          <!--  shopping cart items   -->
+        <div class="row">
+          <div class="col-md-8 cart__item ">
+            <!-- cart item -->
+            <div class="product cart__product">
+              <a href="#" class="product__img"><img src="../assets/products/6.png" alt="product1" class="img-fluid"></a>
+              <div class="product__info">
+                  <h3 class="product__name">Sam Sung</h3>
+                 
+                  <div class=" text-warning product__rating"> 
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="far fa-star"></i></span>
+                        <span><a href="">20,534 ratings</a></span>
+                  </div>
+
+                  <!-- product qty -->
+                  <div class="product__qty">
+                    <div class="product__qty--num">
+                      <button class="btn btn__add" data-id="pro1"><i class="fas fa-angle-up"></i></button>
+                      <input type="number" data-id="pro1" class=""  placeholder="1">
+                      <button class="btn btn__sub"  data-id="pro1" ><i class="fas fa-angle-down"></i></button>
+                    </div>
+                    <button type="submit" class="btn btn__delete ">Delete</button>
+                    <button type="submit" class="btn btn__save">Save for Later</button>
+                  </div>
+              <!-- !product qty -->
+              </div>
+            
+                <div class="product__price">
+                  $<span class="">152</span>
+                </div>
+
+              </div>
+          <!-- !cart item -->
+
+              <!-- cart item -->
+            <div class="product cart__product">
+              <a href="#" class="product__img"><img src="../assets/products/5.png" alt="product1" class="img-fluid"></a>
+              <div class="product__info">
+                  <h3 class="product__name">Sam Sung</h3>
+                 
+                  <div class=" text-warning product__rating"> 
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="far fa-star"></i></span>
+                        <span><a href="">20,534 ratings</a></span>
+                  </div>
+
+                  <!-- product qty -->
+                  <div class="product__qty">
+                    <div class="product__qty--num">
+                      <button class="btn btn__add" data-id="pro1"><i class="fas fa-angle-up"></i></button>
+                      <input type="number" data-id="pro1" class=""  placeholder="1">
+                      <button class="btn btn__sub"  data-id="pro1" ><i class="fas fa-angle-down"></i></button>
+                    </div>
+                    <button type="submit" class="btn btn__delete ">Delete</button>
+                    <button type="submit" class="btn btn__save">Save for Later</button>
+                  </div>
+              <!-- !product qty -->
+              </div>
+            
+                <div class="product__price">
+                  $<span class="">152</span>
+                </div>
+
+              </div>
+          <!-- !cart item -->
+
+           <!-- cart item -->
+           <div class="product cart__product">
+            <a href="#" class="product__img"><img src="../assets/products/4.png" alt="product1" class="img-fluid"></a>
+            <div class="product__info">
+                <h3 class="product__name">Sam Sung</h3>
+               
+                <div class=" text-warning product__rating"> 
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                      <span><a href="">20,534 ratings</a></span>
+                </div>
+
+                <!-- product qty -->
+                <div class="product__qty">
+                  <div class="product__qty--num">
+                    <button class="btn btn__add" data-id="pro1"><i class="fas fa-angle-up"></i></button>
+                    <input type="number" data-id="pro1" class=""  placeholder="1">
+                    <button class="btn btn__sub"  data-id="pro1" ><i class="fas fa-angle-down"></i></button>
+                  </div>
+                  <button type="submit" class="btn btn__delete ">Delete</button>
+                  <button type="submit" class="btn btn__save">Save for Later</button>
+                </div>
+            <!-- !product qty -->
+            </div>
+          
+              <div class="product__price">
+                $<span class="">152</span>
+              </div>
+
+            </div>
+        <!-- !cart item -->
+
+          </div>
+
+          <!-- subtotal section-->
+          <div class="col-md-4  cart__total" >
+            <div class="total__info">
+              <h6 class=""><i class="fas fa-check"></i> Your order is eligible for FREE Delivery.</h6>
+              <div class="cart__list">
+                  <h5 class="cart__list--item">Subtotal (2 item):&nbsp; <span class="text-danger">$<span class="text-danger" id="deal-price">152.00</span> </span> </h5>
+                  <button type="submit" class="btn btn-warning  btn__payment">Proceed to Buy</button>
+              </div>
+            </div>
+          </div>  
+          <!-- !subtotal section-->         
+        </div>
+       <!--  !shopping cart items   -->
+         
+      </section>
+  <!-- !Shopping cart section  -->
+
+  <!-- product tsalae -->
+      <section id="newPhone" >
+            <div class="cate--title"> <span>New Phone :</span></div>
+
+            <!-- owl carousel -->
+            <div class="owl-carousel owl-theme">
+              <div class="item bg-light " >
+                <div class="product ">
+                  <a href="#"><img src="../assets/products/6.png" alt="product1" class="img-fluid"></a>
+                  <div class="product__info">
+                    <h3 class="product__name">Sam Sung</h3>
+                    <div class=" text-warning product__rating">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                    </div>
+                    <div class="product__price">
+                      <span>$152</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning  add__cart">
+                      <a href="" class="cart" >  Add to Cart  <i class="fas fa-shopping-cart"></i></a>
+                     
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="item bg-light " >
+                <div class="product ">
+                  <a href="#"><img src="../assets/products/1.png" alt="product1" class="img-fluid"></a>
+                  <div class="product__info">
+                    <h3 class="product__name">Sam Sung</h3>
+                    <div class=" text-warning product__rating">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                    </div>
+                    <div class="product__price">
+                      <span>$152</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning  add__cart">
+                      <a href="" class="cart" >  Add to Cart  <i class="fas fa-shopping-cart"></i></a>
+                     
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item bg-light " >
+                <div class="product ">
+                  <a href="#"><img src="../assets/products/2.png" alt="product1" class="img-fluid"></a>
+                  <div class="product__info">
+                    <h3 class="product__name">Sam Sung</h3>
+                    <div class=" text-warning product__rating">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                    </div>
+                    <div class="product__price">
+                      <span>$152</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning  add__cart">
+                      <a href="" class="cart" >  Add to Cart  <i class="fas fa-shopping-cart"></i></a>
+                     
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item bg-light " >
+                <div class="product ">
+                  <a href="#"><img src="../assets/products/3.png" alt="product1" class="img-fluid"></a>
+                  <div class="product__info">
+                    <h3 class="product__name">Sam Sung</h3>
+                    <div class=" text-warning product__rating">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                    </div>
+                    <div class="product__price">
+                      <span>$152</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning  add__cart">
+                      <a href="" class="cart" >  Add to Cart  <i class="fas fa-shopping-cart"></i></a>
+                     
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item bg-light " >
+                <div class="product ">
+                  <a href="#"><img src="../assets/products/4.png" alt="product1" class="img-fluid"></a>
+                  <div class="product__info">
+                    <h3 class="product__name">Sam Sung</h3>
+                    <div class=" text-warning product__rating">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                    </div>
+                    <div class="product__price">
+                      <span>$152</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning  add__cart">
+                      <a href="" class="cart" >  Add to Cart  <i class="fas fa-shopping-cart"></i></a>
+                     
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              
+            </div>
+      </section>
+  <!-- product tsalae -->
+    </div>
+  </main>
+
+    <!-- !start #main-site -->
+
+     <!-- start #footer -->
+     <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-12 footer__slogan">
+            <a href="index.html" > 
+              Mobile HaHa
+            </a>
+            <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, deserunt.</p>
+          </div>
+          <div class="col-lg-4 col-12">
+            <h4 class="footer__title">Newslatter</h4>
+            <form class=" footer__form">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Email *">
+              </div>
+              <div class="col">
+                <button type="submit" class="btn btn-primary ">Subscribe</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-2 col-12 ">
+            <h4 class="footer__title">Information</h4>
+            <div class="footer__list">
+              <a href="#" class="footer__link">About Us</a>
+              <a href="#" class="footer__link">Delivery Information</a>
+              <a href="#" class="footer__link">Privacy Policy</a>
+              <a href="#" class="footer__link">Terms & Conditions</a>
+            </div>
+          </div>
+          
+          <div class="col-lg-2 col-12 ">
+            <h4 class="footer__title">Information</h4>
+            <div class="footer__list">
+              <a href="#" class="footer__link">About Us</a>
+              <a href="#" class="footer__link">Delivery Information</a>
+              <a href="#" class="footer__link">Privacy Policy</a>
+              <a href="#" class="footer__link">Terms & Conditions</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+<!-- !start #footer -->
+      
+</div>
+   
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- Owl Carousel Js file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous"></script>
+
+    <!--  isotope plugin cdn  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+
+    <!-- Custom Javascript -->
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+.header{
+    background-color: $color-primary;  
+    font-size: 1.6rem;
+
+    .menu__close, .menu__collapse{
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+        z-index: 11;
+        display: none;
+        font-size: 3rem;
+    }
+    .unActive{
+        display: none !important;
+        }
+        .active{
+            position: fixed;
+            display: block;
+    
+        }
+    @media screen  and(max-width:767px ){
+       .menu__collapse{
+           display: block;
+           position: fixed;
+       } 
+    }
+}
+.header__top{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    //  box-shadow: 0px 1px 0px 0px rgba(0,0,0,1);
+    
+    .header__search{
+        width: 50%;
+    //    font-size: 1.6rem;
+       display: flex;
+       align-items: center;
+        .seach--input{
+            width: 70%;
+            border-radius: 20px;
+            border: none;
+            padding: 3px 10px;
+        }
+        .btn--search{
+            border-radius: 0.5rem;
+            border: none;
+            background-color: $color-second;
+            color: $color-gold;
+            font-size: 1.6rem;
+            margin-left: 1.5rem;
+        }
+
+    }
+    .header__cart{
+        text-align: center;
+       width: 200px; 
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       font-size: 2rem;
+       .cart--value{
+           margin-left: 1.5rem;
+           
+       }
+    }
+  
+}
+.header__logo {
+  
+    padding: .5rem 2rem;
+    max-width: 18rem;
+    font-size: 2.4rem;
+    font-weight: 800;
+    color:$color-gold;
+    border: none;
+    border-radius: 5px;
+    background: $color-second;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover{
+        text-decoration: none;
+        transform: scale(1.1);
+        background-color: $color-gray;
+    }
+  }
+  @media screen and (max-width: 767px) { 
+  .header__logo {
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 767px) { 
+    
+    .header__top{  
+      display: block;
+       box-shadow: none;
+       
+        .header__search{
+            width: 90%;
+            // display: none;
+           justify-content: center;
+            .seach--input{
+                width: 70%;
+                border-radius: 20px;
+                border: none;
+                padding: 3px 10px;
+            }
+            .btn--search{
+              
+            }
+        }
+        .header__cart{   
+          position: absolute;
+          top: 2rem;
+          right: 10%;
+           .cart--value{
+            
+           }
+        }
+    }
+
+}

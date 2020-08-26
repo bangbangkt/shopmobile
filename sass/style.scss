@@ -1,0 +1,86 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Raleway&family=Rubik&display=swap');
+
+/*              Sass Template           */
+
+@import 'include/setting';
+@import 'include/header';
+
+@import 'include/navCarousel';
+@import 'include/aside';
+@import 'include/topsale';
+
+@import 'include/special';
+@import 'include/footer';
+@import 'include/cart';
+@import 'include/product';
+main{
+ padding: 0 1rem;
+ margin: 0px;   
+}
+.cate--title{
+    
+    padding: .75rem 1.25rem;
+    
+    span{
+        border-bottom: 2px solid $color-gold;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 2rem;
+    }
+}
+#newPhone{
+    padding: 2rem 0;
+}
+
+#banner__adds{
+    clear: both;
+    padding: 3rem 0;
+    .banner__adds--item{
+      
+        display: flex;
+        justify-content: space-evenly;
+    }
+    @media screen  and(max-width:767px ){
+        .banner__adds--item{
+            display: block;
+            img{
+                width: 96%;
+               padding: 1rem 2rem;
+            }
+           
+        } 
+     }
+}
+
+#blogs{
+    padding: 3rem 1rem;
+
+        .blog__item{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem 0;
+            margin: 0 2rem;
+           
+            .blog__info{
+
+                .blog__infor--name{
+                    font-size: 1.6rem;
+                    font-weight: 400;
+                    padding-bottom: 1rem;
+                }
+                .blog__info--text{
+                    padding-top: 1rem;
+                    font-size: 1.4rem;
+                }
+                a{
+                    padding-top: 1rem;
+                    font-size: 1.4rem;
+                }
+            }
+        }
+    
+    
+}

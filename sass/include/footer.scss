@@ -1,0 +1,43 @@
+#footer{
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    background-color: $color-second;
+    font-size: 1.4rem;
+    color:$color-white;
+    .footer__slogan{
+        a{
+            font-size: 1.8rem;
+            color: $color-gold;
+            font-weight: 600;
+        }
+        p{
+            font-size: 1.4rem;
+            margin-top: 1.5rem;
+        }
+    }
+    .footer__title{
+        margin-top: 1.5rem;
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+   
+        
+    .footer__form{
+            display: flex;
+            margin-top: 1.5rem;
+            div:first-child{
+                padding-left:0;
+            }
+            input, button{
+                font-size: 1.4rem;
+            }
+        }
+        
+        .footer__list{
+            
+            .footer__link{
+                color: $color-gray;
+            }
+        }
+}
+// 

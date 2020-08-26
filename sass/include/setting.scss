@@ -1,0 +1,64 @@
+/* variable*/
+$font-baloo : "Baloo Thambi 2" , cursive;
+$font-raleway : "Raleway" , cursive;
+$font-rubik : "Rubik" , cursive;
+$color-second: #52778b;
+$color-primary : #ecdcb5;
+$color-gray: rgb(199, 178, 178);
+$color-white: white;
+$color-black: black;
+$color-dark: #be6318;
+$color-gold: gold;
+$wrapper: 192rem;
+$container: 117rem;
+
+/*setting */
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+  }
+
+  body {
+    font-family: $font-baloo;
+    font-weight: 300;
+
+    color: $color-black;
+    background-color: $color-white;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+  }
+  a {
+    display: block;
+    text-decoration: none;
+  }
+
+  li{
+    list-style: none;
+  }
+  .wrapper {
+    max-width: $wrapper;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container {
+    max-width: $container;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .row{
+    margin: 2rem 0px;
+}
+  /*  global classes  */
+
+button, button:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
