@@ -1,17 +1,41 @@
-aside{
-    // padding: 3rem 0;
-    ul{
-        // min-width: 24rem;
-        text-align: center;
-        li h2{
-            font-size: 2rem;
-            font-weight: bold;
-        }
-        li{
+#brands{
+    height: 40vh;
+    text-align: center;
+
+}
+.brand__item{
+    padding: 0;
+    width: 100%;
+    height: 4rem;
+    
+    font-size:1.6rem;
+}
+
+.brand__item :hover{
+    background-color: $color-primary;
+    color: $color-gold;
+    width: 100%;
+    text-decoration: none;
+
+}
+.brand__link{
+    color: $color-black;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#login{
+    height: 40vh;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    
+    .login__form{
+        padding: 2rem 0;
+        font-size: 1.6rem;
+        input{
             font-size: 1.6rem;
-            font-weight: 500;
-           
         }
     }
-    
 }

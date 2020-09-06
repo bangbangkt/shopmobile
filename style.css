@@ -58,7 +58,7 @@ button, button:focus {
 }
 
 .header {
-  background-color: #ecdcb5;
+  background-color: #88c298;
   font-size: 1.6rem;
 }
 .header .menu__close, .header .menu__collapse {
@@ -167,12 +167,10 @@ button, button:focus {
 }
 .menu {
   width: 100%;
-  padding: 10px 0px;
   position: absolute;
   top: 9rem;
   z-index: 9;
-  background-color: white;
-  opacity: 0.8;
+  background-color: #52778b;
   transform: translateY(-10%);
 }
 .menu .menu__list {
@@ -183,11 +181,23 @@ button, button:focus {
 }
 .menu .menu__list .menu__item {
   width: calc(15% - 2rem);
-  text-align: center;
-  padding: 0.4rem;
   font-size: 1.8rem;
   text-transform: uppercase;
   font-weight: 600;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 5rem;
+}
+.menu .menu__list .menu__item .menu__link {
+  color: white;
+}
+.menu .menu__list .menu__item:hover {
+  background-color: #c7b2b2;
+}
+.menu .menu__list .menu__item:hover .menu__link {
+  text-decoration: none;
+  color: gold;
 }
 
 @media screen and (max-width: 767px) {
@@ -200,7 +210,6 @@ button, button:focus {
     bottom: 0;
     z-index: 10;
     min-width: 32rem;
-    background-color: #c7b2b2;
     transition: transform 0.25s linear;
     will-change: transform;
     transform: translateX(100%);
@@ -212,6 +221,7 @@ button, button:focus {
   }
   .menu .menu__list .menu__item {
     display: block;
+    text-align: center;
     padding: 1.5rem;
     width: 100%;
     border-bottom: 1px solid #f2f2f2;
@@ -228,20 +238,49 @@ button, button:focus {
   transform: translateX(-50%);
 }
 
-aside ul {
+#brands {
+  height: 40vh;
   text-align: center;
 }
-aside ul li h2 {
-  font-size: 2rem;
-  font-weight: bold;
-}
-aside ul li {
+
+.brand__item {
+  padding: 0;
+  width: 100%;
+  height: 4rem;
   font-size: 1.6rem;
-  font-weight: 500;
+}
+
+.brand__item :hover {
+  background-color: #88c298;
+  color: gold;
+  width: 100%;
+  text-decoration: none;
+}
+
+.brand__link {
+  color: black;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#login {
+  height: 40vh;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+}
+#login .login__form {
+  padding: 2rem 0;
+  font-size: 1.6rem;
+}
+#login .login__form input {
+  font-size: 1.6rem;
 }
 
 .topsale {
-  border-bottom: 2px solid #ecdcb5;
+  border-bottom: 2px solid #88c298;
   padding-bottom: 3rem;
 }
 .topsale .owl-carousel .owl-nav.disabled {
@@ -253,7 +292,7 @@ aside ul li {
   font-size: 4rem;
   color: gold;
   padding: 1rem;
-  background-color: #c7b2b2;
+  background-color: none;
   width: 3rem;
   border: 1px solid;
   outline: none;
@@ -366,10 +405,6 @@ aside ul li {
 }
 #footer .footer__list .footer__link {
   color: #c7b2b2;
-}
-
-#menu {
-  background-color: #c7b2b2;
 }
 
 #cart__site {

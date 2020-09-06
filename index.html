@@ -92,23 +92,52 @@
     </section>
     
     <main class="row">
+      <div class="col-md-3">
     <!-- aside -->
-    <aside class="col-md-2">
-        <ul class="list-group">
-            <li class="list-group-item"><H2>Categoy</H2></li>
-            <li class="list-group-item list-group-item-primary"><a href="">Apple</a></li>
-            <li class="list-group-item list-group-item-secondary"><a href="">Sam Sung</a></li>
-            <li class="list-group-item list-group-item-success"><a href="">Nokia</a></li>
-            <li class="list-group-item list-group-item-danger"><a href="">Xaomi</a></li>
-            <li class="list-group-item list-group-item-warning"><a href="">Oppo</a></li>
-            <li class="list-group-item list-group-item-info"><a href="">Apple</a></li>
-            <li class="list-group-item list-group-item-light"><a href="">Apple</a></li>
-            <li class="list-group-item list-group-item-dark"><a href="">Apple</a></li>
-          </ul>
-    </aside>
-     <!-- start #main-site -->
     
-    <div class="col-md-10">
+    <section id="brands">
+      <ul class="list-group brand__list">
+          <li  class="list-group-item" ><H2 class="title__primary">List Brand</H2></li>
+          <li class="brand__item list-group-item ">
+            <a href=""  class="brand__link  title__second">Sam Sung</a>
+          </li>
+          <li class="brand__item list-group-item ">
+            <a href=""  class="brand__link  title__second">Sam Sung</a>
+          </li>
+          <li class="brand__item list-group-item ">
+            <a href=""  class="brand__link  title__second">Sam Sung</a>
+          </li>
+          <li class="brand__item list-group-item ">
+            <a href=""  class="brand__link  title__second">Sam Sung</a>
+          </li>
+          <li class="brand__item list-group-item ">
+            <a href=""  class="brand__link  title__second">Sam Sung</a>
+          </li>
+      </ul>
+    </section>
+  
+  <section id="login">
+    <div class="cate--title"> <span>Form Login :</span></div>
+      <form action="" class="login__form" >
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          
+          <input type="submit" value="submit" class="btn btn-primary  px-4">
+        </form>
+      </section>
+     <!-- start #main-site -->
+
+    <!-- // -->
+    </div>
+    <!-- // -->
+    <div class="col-md-9">
       <!-- product tsalae -->
         <section class="topsale">
             <div class="cate--title"> <span>Top-sale :</span></div>
@@ -117,7 +146,7 @@
             <div class="owl-carousel owl-theme">
               <div class="item .topsale__item" >
                 <div class="product product__sale">
-                  <a href="#"><img src="../assets/products/6.png" alt="product1" class="img-fluid"></a>
+                  <a href="#"><img src="./assets/products/6.png" alt="product1" class="img-fluid"></a>
                   <div class="product__info">
                     <h3 class="product__name">Sam Sung</h3>
                     <div class=" text-warning product__rating">
@@ -139,30 +168,7 @@
               </div>
               <div class="item .topsale__item" >
                 <div class="product product__sale">
-                  <a href="#"><img src="../assets/products/1.png" alt="product1" class="img-fluid"></a>
-                  <div class="product__info">
-                    <h3 class="product__name">Sam Sung</h3>
-                    <div class=" text-warning product__rating">
-                      <span><i class="fas fa-star"></i></span>
-                      <span><i class="fas fa-star"></i></span>
-                      <span><i class="fas fa-star"></i></span>
-                      <span><i class="fas fa-star"></i></span>
-                      <span><i class="far fa-star"></i></span>
-                    </div>
-                    <div class="product__price">
-                      <span>$152</span>
-                    </div>
-                    <button type="submit" class="btn btn-warning  add__cart">
-                      <a href="" class="cart" >  Add to Cart  <i class="fas fa-shopping-cart"></i></a>
-                     
-                    </button>
-                  </div>
-                </div>
-              </div>
-
-              <div class="item .topsale__item" >
-                <div class="product product__sale">
-                  <a href="#"><img src="../assets/products/2.png" alt="product1" class="img-fluid"></a>
+                  <a href="#"><img src="./assets/products/1.png" alt="product1" class="img-fluid"></a>
                   <div class="product__info">
                     <h3 class="product__name">Sam Sung</h3>
                     <div class=" text-warning product__rating">
@@ -185,7 +191,7 @@
 
               <div class="item .topsale__item" >
                 <div class="product product__sale">
-                  <a href="#"><img src="../assets/products/3.png" alt="product1" class="img-fluid"></a>
+                  <a href="#"><img src="./assets/products/2.png" alt="product1" class="img-fluid"></a>
                   <div class="product__info">
                     <h3 class="product__name">Sam Sung</h3>
                     <div class=" text-warning product__rating">
@@ -208,7 +214,7 @@
 
               <div class="item .topsale__item" >
                 <div class="product product__sale">
-                  <a href="#"><img src="../assets/products/4.png" alt="product1" class="img-fluid"></a>
+                  <a href="#"><img src="./assets/products/3.png" alt="product1" class="img-fluid"></a>
                   <div class="product__info">
                     <h3 class="product__name">Sam Sung</h3>
                     <div class=" text-warning product__rating">
@@ -231,7 +237,30 @@
 
               <div class="item .topsale__item" >
                 <div class="product product__sale">
-                  <a href="#"><img src="../assets/products/5.png" alt="product1" class="img-fluid"></a>
+                  <a href="#"><img src="./assets/products/4.png" alt="product1" class="img-fluid"></a>
+                  <div class="product__info">
+                    <h3 class="product__name">Sam Sung</h3>
+                    <div class=" text-warning product__rating">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                    </div>
+                    <div class="product__price">
+                      <span>$152</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning  add__cart">
+                      <a href="" class="cart" >  Add to Cart  <i class="fas fa-shopping-cart"></i></a>
+                     
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item .topsale__item" >
+                <div class="product product__sale">
+                  <a href="#"><img src="./assets/products/5.png" alt="product1" class="img-fluid"></a>
                   <div class="product__info">
                     <h3 class="product__name">Sam Sung</h3>
                     <div class=" text-warning product__rating">
@@ -255,299 +284,99 @@
             </div>
         </section>
         <!-- product tsalae -->
-
-        <!-- product Special Price -->
-        <section id="special">
+               <!-- product Special Price -->
+       <section id="special">
             
-            <div class="cate--title"> <span>special-price :</span></div>
+        <div class="cate--title"> <span>special-price :</span></div>
 
-              <div id="filters" class="button-group  ">
-                <button class="btn is-checked" data-filter="*">All Brand</button>
-                <button class="btn" data-filter=".Apple">Apple</button>
-                <button class="btn" data-filter=".Samsung">Samsung</button>
-                <button class="btn" data-filter=".Redmi">Redmi</button>
+          <div id="filters" class="button-group  ">
+            <button class="btn is-checked" data-filter="*">All Brand</button>
+            <button class="btn" data-filter=".Apple">Apple</button>
+            <button class="btn" data-filter=".Samsung">Samsung</button>
+            <button class="btn" data-filter=".Redmi">Redmi</button>
+          </div>
+
+          <div class="grid">
+             <!-- class product item Apple -->
+            <div class="grid-item Apple border">
+              <div class="item "  >
+                <div class="product ">
+                  <a href="#"><img src="./assets/products/13.png" alt="product1" class="img-fluid"></a>
+                  <div class="product__info">
+                    <h3 class="product__name">iphone ZZZ</h3>
+                    <div class=" text-warning product__rating">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                    </div>
+                    <div class="product__price">
+                      <span>$152</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning  add__cart">
+                      <a href="" class="cart" >  Add to Cart  <i class="fas fa-shopping-cart"></i></a>
+                     
+                    </button>
+                  </div>
+                </div>
               </div>
-
-              <div class="grid">
-                 <!-- class product item Apple -->
-                <div class="grid-item Apple border">
-                  <div class="item "  >
-                    <div class="product ">
-                      <a href="#"><img src="../assets/products/13.png" alt="product1" class="img-fluid"></a>
-                      <div class="product__info">
-                        <h3 class="product__name">iphone ZZZ</h3>
-                        <div class=" text-warning product__rating">
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="far fa-star"></i></span>
-                        </div>
-                        <div class="product__price">
-                          <span>$152</span>
-                        </div>
-                        <button type="submit" class="btn btn-warning  add__cart">
-                          <a href="" class="cart" >  Add to Cart  <i class="fas fa-shopping-cart"></i></a>
-                         
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="grid-item Apple border">
-                  <div class="item "  >
-                    <div class="product ">
-                      <a href="#"><img src="../assets/products/14.png" alt="product1" class="img-fluid"></a>
-                      <div class="product__info">
-                        <h3 class="product__name">Iphone XX</h3>
-                        <div class=" text-warning product__rating">
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="far fa-star"></i></span>
-                        </div>
-                        <div class="product__price">
-                          <span>$152</span>
-                        </div>
-                        <button type="submit" class="btn btn-warning  add__cart">
-                          <a href="" class="cart" >  Add to Cart  <i class="fas fa-shopping-cart"></i></a>
-                         
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                
-                <div class="grid-item Apple border">
-                  <div class="item "  >
-                    <div class="product ">
-                      <a href="#"><img src="../assets/products/15.png" alt="product1" class="img-fluid"></a>
-                      <div class="product__info">
-                        <h3 class="product__name">Iphone X</h3>
-                        <div class=" text-warning product__rating">
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="far fa-star"></i></span>
-                        </div>
-                        <div class="product__price">
-                          <span>$152</span>
-                        </div>
-                        <button type="submit" class="btn btn-warning  add__cart">
-                          <a href="" class="cart" >  Add to Cart  <i class="fas fa-shopping-cart"></i></a>
-                         
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                 <!-- class product item Sam Sung -->
-                <div class="grid-item Samsung border">
-                  <div class="item "  >
-                    <div class="product ">
-                      <a href="#"><img src="../assets/products/1.png" alt="product1" class="img-fluid"></a>
-                      <div class="product__info">
-                        <h3 class="product__name">Sam Sung</h3>
-                        <div class=" text-warning product__rating">
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="far fa-star"></i></span>
-                        </div>
-                        <div class="product__price">
-                          <span>$152</span>
-                        </div>
-                        <button type="submit" class="btn btn-warning  add__cart">
-                          <a href="" class="cart" >  Add to Cart  <i class="fas fa-shopping-cart"></i></a>
-                         
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="grid-item Samsung border">
-                  <div class="item "  >
-                    <div class="product ">
-                      <a href="#"><img src="../assets/products/1.png" alt="product1" class="img-fluid"></a>
-                      <div class="product__info">
-                        <h3 class="product__name">Sam Sung</h3>
-                        <div class=" text-warning product__rating">
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="far fa-star"></i></span>
-                        </div>
-                        <div class="product__price">
-                          <span>$152</span>
-                        </div>
-                        <button type="submit" class="btn btn-warning  add__cart">
-                          <a href="" class="cart" >  Add to Cart  <i class="fas fa-shopping-cart"></i></a>
-                         
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="grid-item Samsung border">
-                  <div class="item "  >
-                    <div class="product ">
-                      <a href="#"><img src="../assets/products/1.png" alt="product1" class="img-fluid"></a>
-                      <div class="product__info">
-                        <h3 class="product__name">Sam Sung</h3>
-                        <div class=" text-warning product__rating">
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="far fa-star"></i></span>
-                        </div>
-                        <div class="product__price">
-                          <span>$152</span>
-                        </div>
-                        <button type="submit" class="btn btn-warning  add__cart">
-                          <a href="" class="cart" >  Add to Cart  <i class="fas fa-shopping-cart"></i></a>
-                         
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                  
-                 <!-- class product item redmi -->
-                 <div class="grid-item Redmi border">
-                  <div class="item "  >
-                    <div class="product ">
-                      <a href="#"><img src="../assets/products/1.png" alt="product1" class="img-fluid"></a>
-                      <div class="product__info">
-                        <h3 class="product__name">Redmi I</h3>
-                        <div class=" text-warning product__rating">
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="far fa-star"></i></span>
-                        </div>
-                        <div class="product__price">
-                          <span>$152</span>
-                        </div>
-                        <button type="submit" class="btn btn-warning  add__cart">
-                          <a href="" class="cart" >  Add to Cart  <i class="fas fa-shopping-cart"></i></a>
-                         
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="grid-item Redmi border">
-                  <div class="item "  >
-                    <div class="product ">
-                      <a href="#"><img src="../assets/products/1.png" alt="product1" class="img-fluid"></a>
-                      <div class="product__info">
-                        <h3 class="product__name">Redmi2</h3>
-                        <div class=" text-warning product__rating">
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="far fa-star"></i></span>
-                        </div>
-                        <div class="product__price">
-                          <span>$152</span>
-                        </div>
-                        <button type="submit" class="btn btn-warning  add__cart">
-                          <a href="" class="cart" >  Add to Cart  <i class="fas fa-shopping-cart"></i></a>
-                         
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                
-                <div class="grid-item Redmi border">
-                  <div class="item "  >
-                    <div class="product ">
-                      <a href="#"><img src="../assets/products/1.png" alt="product1" class="img-fluid"></a>
-                      <div class="product__info">
-                        <h3 class="product__name">Redmi 3</h3>
-                        <div class=" text-warning product__rating">
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="far fa-star"></i></span>
-                        </div>
-                        <div class="product__price">
-                          <span>$152</span>
-                        </div>
-                        <button type="submit" class="btn btn-warning  add__cart">
-                          <a href="" class="cart" >  Add to Cart  <i class="fas fa-shopping-cart"></i></a>
-                         
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="grid-item Redmi border">
-                  <div class="item "  >
-                    <div class="product ">
-                      <a href="#"><img src="../assets/products/1.png" alt="product1" class="img-fluid"></a>
-                      <div class="product__info">
-                        <h3 class="product__name">Redmi4</h3>
-                        <div class=" text-warning product__rating">
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="fas fa-star"></i></span>
-                          <span><i class="far fa-star"></i></span>
-                        </div>
-                        <div class="product__price">
-                          <span>$152</span>
-                        </div>
-                        <button type="submit" class="btn btn-warning  add__cart">
-                          <a href="" class="cart" >  Add to Cart  <i class="fas fa-shopping-cart"></i></a>
-                         
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-        
-
-                
-                  
-                
-              </div>
-           
-          </section>
-        <!-- !Special Price -->
-
-           <!-- Banner Ads  -->
-           <section id="banner__adds">
-            <div class=" banner__adds--item">
-              <img src="../assets/banner1-cr-500x150.jpg" alt="banner1" class="img-fluid">
-              <img src="../assets/banner2-cr-500x150.jpg" alt="banner1" class="img-fluid">
             </div>
-          </section>
-        <!-- !Banner Ads  -->
-        
-          <!-- product tsalae -->
-          <section id="newPhone" >
-            <div class="cate--title"> <span>New Phone :</span></div>
-
-            <!-- owl carousel -->
-            <div class="owl-carousel owl-theme">
-              <div class="item bg-light " >
+            <div class="grid-item Apple border">
+              <div class="item "  >
                 <div class="product ">
-                  <a href="#"><img src="../assets/products/6.png" alt="product1" class="img-fluid"></a>
+                  <a href="#"><img src="./assets/products/14.png" alt="product1" class="img-fluid"></a>
+                  <div class="product__info">
+                    <h3 class="product__name">Iphone XX</h3>
+                    <div class=" text-warning product__rating">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                    </div>
+                    <div class="product__price">
+                      <span>$152</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning  add__cart">
+                      <a href="" class="cart" >  Add to Cart  <i class="fas fa-shopping-cart"></i></a>
+                     
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="grid-item Apple border">
+              <div class="item "  >
+                <div class="product ">
+                  <a href="#"><img src="./assets/products/15.png" alt="product1" class="img-fluid"></a>
+                  <div class="product__info">
+                    <h3 class="product__name">Iphone X</h3>
+                    <div class=" text-warning product__rating">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                    </div>
+                    <div class="product__price">
+                      <span>$152</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning  add__cart">
+                      <a href="" class="cart" >  Add to Cart  <i class="fas fa-shopping-cart"></i></a>
+                     
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+             <!-- class product item Sam Sung -->
+            <div class="grid-item Samsung border">
+              <div class="item "  >
+                <div class="product ">
+                  <a href="#"><img src="./assets/products/1.png" alt="product1" class="img-fluid"></a>
                   <div class="product__info">
                     <h3 class="product__name">Sam Sung</h3>
                     <div class=" text-warning product__rating">
@@ -567,9 +396,12 @@
                   </div>
                 </div>
               </div>
-              <div class="item bg-light " >
+            </div>
+
+            <div class="grid-item Samsung border">
+              <div class="item "  >
                 <div class="product ">
-                  <a href="#"><img src="../assets/products/1.png" alt="product1" class="img-fluid"></a>
+                  <a href="#"><img src="./assets/products/1.png" alt="product1" class="img-fluid"></a>
                   <div class="product__info">
                     <h3 class="product__name">Sam Sung</h3>
                     <div class=" text-warning product__rating">
@@ -589,10 +421,12 @@
                   </div>
                 </div>
               </div>
+            </div>
 
-              <div class="item bg-light " >
+            <div class="grid-item Samsung border">
+              <div class="item "  >
                 <div class="product ">
-                  <a href="#"><img src="../assets/products/2.png" alt="product1" class="img-fluid"></a>
+                  <a href="#"><img src="./assets/products/1.png" alt="product1" class="img-fluid"></a>
                   <div class="product__info">
                     <h3 class="product__name">Sam Sung</h3>
                     <div class=" text-warning product__rating">
@@ -612,94 +446,287 @@
                   </div>
                 </div>
               </div>
-
-              <div class="item bg-light " >
-                <div class="product ">
-                  <a href="#"><img src="../assets/products/3.png" alt="product1" class="img-fluid"></a>
-                  <div class="product__info">
-                    <h3 class="product__name">Sam Sung</h3>
-                    <div class=" text-warning product__rating">
-                      <span><i class="fas fa-star"></i></span>
-                      <span><i class="fas fa-star"></i></span>
-                      <span><i class="fas fa-star"></i></span>
-                      <span><i class="fas fa-star"></i></span>
-                      <span><i class="far fa-star"></i></span>
-                    </div>
-                    <div class="product__price">
-                      <span>$152</span>
-                    </div>
-                    <button type="submit" class="btn btn-warning  add__cart">
-                      <a href="" class="cart" >  Add to Cart  <i class="fas fa-shopping-cart"></i></a>
-                     
-                    </button>
-                  </div>
-                </div>
-              </div>
-
-              <div class="item bg-light " >
-                <div class="product ">
-                  <a href="#"><img src="../assets/products/4.png" alt="product1" class="img-fluid"></a>
-                  <div class="product__info">
-                    <h3 class="product__name">Sam Sung</h3>
-                    <div class=" text-warning product__rating">
-                      <span><i class="fas fa-star"></i></span>
-                      <span><i class="fas fa-star"></i></span>
-                      <span><i class="fas fa-star"></i></span>
-                      <span><i class="fas fa-star"></i></span>
-                      <span><i class="far fa-star"></i></span>
-                    </div>
-                    <div class="product__price">
-                      <span>$152</span>
-                    </div>
-                    <button type="submit" class="btn btn-warning  add__cart">
-                      <a href="" class="cart" >  Add to Cart  <i class="fas fa-shopping-cart"></i></a>
-                     
-                    </button>
-                  </div>
-                </div>
-              </div>
-
+            </div>
               
+             <!-- class product item redmi -->
+             <div class="grid-item Redmi border">
+              <div class="item "  >
+                <div class="product ">
+                  <a href="#"><img src="./assets/products/1.png" alt="product1" class="img-fluid"></a>
+                  <div class="product__info">
+                    <h3 class="product__name">Redmi I</h3>
+                    <div class=" text-warning product__rating">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                    </div>
+                    <div class="product__price">
+                      <span>$152</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning  add__cart">
+                      <a href="" class="cart" >  Add to Cart  <i class="fas fa-shopping-cart"></i></a>
+                     
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
-        </section>
-        <!-- product tsalae -->
-
-          <!-- Blogs -->
-          <section id="blogs">
+            <div class="grid-item Redmi border">
+              <div class="item "  >
+                <div class="product ">
+                  <a href="#"><img src="./assets/products/1.png" alt="product1" class="img-fluid"></a>
+                  <div class="product__info">
+                    <h3 class="product__name">Redmi2</h3>
+                    <div class=" text-warning product__rating">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                    </div>
+                    <div class="product__price">
+                      <span>$152</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning  add__cart">
+                      <a href="" class="cart" >  Add to Cart  <i class="fas fa-shopping-cart"></i></a>
+                     
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
             
-            <div class="cate--title"> <span>BlogS :</span></div>
-
-              <div class="owl-carousel owl-theme">
-                <div class="item  blog__item">
-                  <div class="blog__info " >
-                    <h3 class="blog__infor--name ">Upcoming Mobiles</h3>
-                    <img src="../assets/blog/blog1.jpg" alt="cart image" class="img-fluid">
-                    <p class="blog__info--text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis non iste sequi cupiditate tempora iure. Velit accusamus saepe harum sed.</p>
-                    <a href="#" class="color-second ">Go somewhere</a>
+            <div class="grid-item Redmi border">
+              <div class="item "  >
+                <div class="product ">
+                  <a href="#"><img src="./assets/products/1.png" alt="product1" class="img-fluid"></a>
+                  <div class="product__info">
+                    <h3 class="product__name">Redmi 3</h3>
+                    <div class=" text-warning product__rating">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                    </div>
+                    <div class="product__price">
+                      <span>$152</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning  add__cart">
+                      <a href="" class="cart" >  Add to Cart  <i class="fas fa-shopping-cart"></i></a>
+                     
+                    </button>
                   </div>
                 </div>
-                <div class="item  blog__item">
-                  <div class="blog__info " >
-                    <h3 class="blog__infor--name ">Upcoming Mobiles</h3>
-                    <img src="../assets/blog/blog3.jpg" alt="cart image" class="img-fluid">
-                    <p class="blog__info--text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis non iste sequi cupiditate tempora iure. Velit accusamus saepe harum sed.</p>
-                    <a href="#" class="color-second ">Go somewhere</a>
-                  </div>
-                </div>
-                <div class="item  blog__item">
-                  <div class="blog__info " >
-                    <h3 class="blog__infor--name ">Upcoming Mobiles</h3>
-                    <img src="../assets/blog/blog2.jpg" alt="cart image" class="img-fluid">
-                    <p class="blog__info--text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis non iste sequi cupiditate tempora iure. Velit accusamus saepe harum sed.</p>
-                    <a href="#" class="color-second ">Go somewhere</a>
-                  </div>
-                </div>
-             
-
+              </div>
             </div>
-          </section>
-        <!-- !Blogs -->
+
+            <div class="grid-item Redmi border">
+              <div class="item "  >
+                <div class="product ">
+                  <a href="#"><img src="./assets/products/1.png" alt="product1" class="img-fluid"></a>
+                  <div class="product__info">
+                    <h3 class="product__name">Redmi4</h3>
+                    <div class=" text-warning product__rating">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                    </div>
+                    <div class="product__price">
+                      <span>$152</span>
+                    </div>
+                    <button type="submit" class="btn btn-warning  add__cart">
+                      <a href="" class="cart" >  Add to Cart  <i class="fas fa-shopping-cart"></i></a>
+                     
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+       
+      </section>
+    <!-- !Special Price -->
+       <!-- Banner Ads  -->
+       <section id="banner__adds">
+        <div class=" banner__adds--item">
+          <img src="./assets/banner1-cr-500x150.jpg" alt="banner1" class="img-fluid">
+          <img src="./assets/banner2-cr-500x150.jpg" alt="banner1" class="img-fluid">
+        </div>
+      </section>
+    <!-- !Banner Ads  -->
+    
+      <!-- product tsalae -->
+      <section id="newPhone" >
+        <div class="cate--title"> <span>New Phone :</span></div>
+
+        <!-- owl carousel -->
+        <div class="owl-carousel owl-theme">
+          <div class="item bg-light " >
+            <div class="product ">
+              <a href="#"><img src="./assets/products/6.png" alt="product1" class="img-fluid"></a>
+              <div class="product__info">
+                <h3 class="product__name">Sam Sung</h3>
+                <div class=" text-warning product__rating">
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="far fa-star"></i></span>
+                </div>
+                <div class="product__price">
+                  <span>$152</span>
+                </div>
+                <button type="submit" class="btn btn-warning  add__cart">
+                  <a href="" class="cart" >  Add to Cart  <i class="fas fa-shopping-cart"></i></a>
+                 
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="item bg-light " >
+            <div class="product ">
+              <a href="#"><img src="./assets/products/1.png" alt="product1" class="img-fluid"></a>
+              <div class="product__info">
+                <h3 class="product__name">Sam Sung</h3>
+                <div class=" text-warning product__rating">
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="far fa-star"></i></span>
+                </div>
+                <div class="product__price">
+                  <span>$152</span>
+                </div>
+                <button type="submit" class="btn btn-warning  add__cart">
+                  <a href="" class="cart" >  Add to Cart  <i class="fas fa-shopping-cart"></i></a>
+                 
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="item bg-light " >
+            <div class="product ">
+              <a href="#"><img src="./assets/products/2.png" alt="product1" class="img-fluid"></a>
+              <div class="product__info">
+                <h3 class="product__name">Sam Sung</h3>
+                <div class=" text-warning product__rating">
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="far fa-star"></i></span>
+                </div>
+                <div class="product__price">
+                  <span>$152</span>
+                </div>
+                <button type="submit" class="btn btn-warning  add__cart">
+                  <a href="" class="cart" >  Add to Cart  <i class="fas fa-shopping-cart"></i></a>
+                 
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="item bg-light " >
+            <div class="product ">
+              <a href="#"><img src="./assets/products/3.png" alt="product1" class="img-fluid"></a>
+              <div class="product__info">
+                <h3 class="product__name">Sam Sung</h3>
+                <div class=" text-warning product__rating">
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="far fa-star"></i></span>
+                </div>
+                <div class="product__price">
+                  <span>$152</span>
+                </div>
+                <button type="submit" class="btn btn-warning  add__cart">
+                  <a href="" class="cart" >  Add to Cart  <i class="fas fa-shopping-cart"></i></a>
+                 
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="item bg-light " >
+            <div class="product ">
+              <a href="#"><img src="./assets/products/4.png" alt="product1" class="img-fluid"></a>
+              <div class="product__info">
+                <h3 class="product__name">Sam Sung</h3>
+                <div class=" text-warning product__rating">
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="far fa-star"></i></span>
+                </div>
+                <div class="product__price">
+                  <span>$152</span>
+                </div>
+                <button type="submit" class="btn btn-warning  add__cart">
+                  <a href="" class="cart" >  Add to Cart  <i class="fas fa-shopping-cart"></i></a>
+                 
+                </button>
+              </div>
+            </div>
+          </div>
+
+          
+        </div>
+    </section>
+    <!-- product tsalae -->
+
+      <!-- Blogs -->
+      <section id="blogs">
+        
+        <div class="cate--title"> <span>BlogS :</span></div>
+
+          <div class="owl-carousel owl-theme">
+            <div class="item  blog__item">
+              <div class="blog__info " >
+                <h3 class="blog__infor--name ">Upcoming Mobiles</h3>
+                <img src="./assets/blog/blog1.jpg" alt="cart image" class="img-fluid">
+                <p class="blog__info--text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis non iste sequi cupiditate tempora iure. Velit accusamus saepe harum sed.</p>
+                <a href="#" class="color-second ">Go somewhere</a>
+              </div>
+            </div>
+            <div class="item  blog__item">
+              <div class="blog__info " >
+                <h3 class="blog__infor--name ">Upcoming Mobiles</h3>
+                <img src="./assets/blog/blog3.jpg" alt="cart image" class="img-fluid">
+                <p class="blog__info--text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis non iste sequi cupiditate tempora iure. Velit accusamus saepe harum sed.</p>
+                <a href="#" class="color-second ">Go somewhere</a>
+              </div>
+            </div>
+            <div class="item  blog__item">
+              <div class="blog__info " >
+                <h3 class="blog__infor--name ">Upcoming Mobiles</h3>
+                <img src="./assets/blog/blog2.jpg" alt="cart image" class="img-fluid">
+                <p class="blog__info--text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis non iste sequi cupiditate tempora iure. Velit accusamus saepe harum sed.</p>
+                <a href="#" class="color-second ">Go somewhere</a>
+              </div>
+            </div>
+         
+
+        </div>
+      </section>
+    <!-- !Blogs -->
+       
+
+          
     </div>
+    
+    
       </main>
 
     <!-- !start #main-site -->

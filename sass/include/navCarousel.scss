@@ -1,12 +1,12 @@
 //menu
 .menu{
     width: 100%;
-    padding: 10px 0px;
+    // padding: 10px 0px;
     position: absolute;
     top: 9rem;
     z-index: 9;
-    background-color: $color-white;
-    opacity: 0.8;
+    background-color: $color-second;
+    // opacity: 0.8;
     transform: translateY(-10%);
     .menu__list{
         display: flex;
@@ -15,12 +15,26 @@
         margin: 0;;
         .menu__item{
             width: calc(15% - 2rem) ;
-            text-align: center;
-            padding: 0.4rem;
+            // padding: 0.4rem;
             font-size: 1.8rem;
             text-transform: uppercase;
             font-weight: 600;
-        }
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            height: 5rem;
+            .menu__link{
+                color: $color-white;
+              }
+
+            &:hover{
+                background-color: #c7b2b2;
+                .menu__link{
+                    text-decoration: none;
+                    color: gold;
+                  }
+            }
+        } 
     }
 
     
@@ -36,7 +50,6 @@
         bottom: 0;
         z-index: 10; 
         min-width: 32rem;
-        background-color: $color-gray;
         transition: transform 0.25s linear;
         will-change: transform;
         transform: translateX(100%);
@@ -48,6 +61,7 @@
            .menu__item {
             display: block;
             // font-size: 2.4rem;
+            text-align: center;
             padding: 1.5rem;
             width: 100%;
             border-bottom: 1px solid #f2f2f2;
